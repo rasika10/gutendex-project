@@ -1,0 +1,85 @@
+.fictionDiv, .dramaDiv, .humourDiv, .politicsrDiv, .philosophyDiv, .historyDiv, .adventureDiv {
+  cursor: pointer;
+  border-radius : 4px;
+  background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px 0 rgb(211 209 238 / 50%);
+    height: 50px;
+    margin: 34px 15px 0px 15px;
+}
+.title{
+  color: black;
+  font-size: 11px;
+  margin-top:10px;
+  width: 114px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.name{
+  color: gray;
+  font-size: 12px;
+    margin-bottom: 15px;
+}
+
+img{
+  width: 25px;
+  margin-right: 10px;
+}
+.fictionDiv span, .dramaDiv span, .humourDiv span, .politicsrDiv span, .philosophyDiv span, .historyDiv span, .adventureDiv span{
+  font-weight:600;
+
+}
+body{
+background-color:#F8F7FF;
+overflow-x: hidden;
+overflow-y: scroll;
+font-size: 16px;
+}
+.thisHide{
+  display:none !important;
+}
+.previous{
+padding: 2px;
+cursor: pointer;
+}
+#coverImg{
+  width: 114px;
+  height: 162px;
+  border-radius: 8px;
+box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+}
+.headofproject{
+  background-image: url(./assets/Pattern.svg);
+  padding: 5% 8% 0 8%;
+}
+.headofproject h1, p{
+padding: 0px !important;
+}
+h1{
+  color: #5E56E7;
+  font-size:48px;
+}
+.headofproject p{
+
+  font-weight: 500;
+}
+.next{
+  float: right;
+margin-top: 5px;
+padding: 2px;
+margin-right:0px;
+}
+
+#titlename{
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight:500;
+
+}
+.NameDiv{
+  padding: 15px 0px;
+}
+#searchhere.focus{
+  border: none;
+  outline:none;
+}
