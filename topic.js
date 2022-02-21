@@ -17,7 +17,7 @@ fetch("https://gutendex.com/books?topic="+query+"").then(data=>{ //button id is 
 completedata.results.map((values)=>{
     dataset+='<div class="imgDiv col-md-2"  ><img src="'+ values.formats["image/jpeg"] +'" id="coverImg" alt="">';
     dataset+='<div class="title">'+ values.title +'</div>';
-    dataset+='<div class="name">'+ values.authors +'</div></div>';
+    dataset+='<div class="name">'+ values.authors[0].name +'</div></div>';
 
 });
 document.getElementById("card").innerHTML=dataset;
