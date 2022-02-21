@@ -41,7 +41,7 @@ var hotText = 'MDN';
     jsondata.results.map((searchvalues)=>{
         dataset+='<div class="imgDiv col-md-2"  ><img src="'+ searchvalues.formats["image/jpeg"] +'" onclick="val('+ searchvalues.formats["text/html"] +')" id="coverImg" alt="">';
         dataset+='<div class="title">'+ searchvalues.title +'</div>';
-        dataset+='<div class="name">'+ searchvalues.authors +'</div></div>';
+        dataset+='<div class="name">'+ searchvalues.authors[0].name +'</div></div>';
 
   });
   document.getElementById("card").innerHTML=dataset;
